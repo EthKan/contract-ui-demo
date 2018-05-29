@@ -36,7 +36,8 @@ npm install
 ```
 npm start
 ```
-#### Errors
+
+#### Common Errors
 If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
 ```
 Error: the tx doesn't have the correct nonce. account has nonce of: 6 tx has nonce of: 5
