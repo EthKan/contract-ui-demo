@@ -20,6 +20,7 @@ var ethNodeUrl = 'ws://localhost:7545'; // my localhost ganache
 var ethKanDeployedAddress = '0x2c2b9c9a4a25e24b174f26114e8926a9f2128fe4'; // address of contract deployed to ganache using truffle
 var gasLimit = 500000; // this is too high for production
 ```
+- Make sure `ethKanDeployedAddress` matches the address from the truffle terminal where you deployed from ethkan-contracts repo instructions
 - Make sure the `EthKan.json` file matches the `./build/contracts/EthKan.json` of the deployed contract you want your dapp to talk to.
 
 #### Run Dapp
@@ -35,12 +36,12 @@ npm start
 ```
 Error: the tx doesn't have the correct nonce. account has nonce of: 6 tx has nonce of: 5
 ```
-If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
+- If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
 ```
 Error: Couldn't decode address from ABI: 0x0
 ```
-If you run into this error it means you probably did not set the correct `ethKanDeployedAddress` config in App.js. Make sure you copy the deployed EthKan contract address from the truffle terminal log from when you deployed the EthKan contract. Contract deployment instructions are in ethkan-contracts repo.
+- If you run into this error it means you probably did not set the correct `ethKanDeployedAddress` config in App.js. Make sure you copy the deployed EthKan contract address from the truffle terminal log from when you deployed the EthKan contract. Contract deployment instructions are in ethkan-contracts repo.
 ```
 Error: VM Exception while processing transaction: revert
 ```
-If you run into this error it means something about your user input violates the contract rules. Calling a method that requires owner access from an address that is not that owner address for example. Or funding a card that is already approved.
+- If you run into this error it means something about your user input violates the contract rules. Calling a method that requires owner access from an address that is not that owner address for example. Or funding a card that is already approved.
