@@ -1,6 +1,8 @@
 # EthKan Contract UI Demo
 
-"Demo dapp with buttons that call EthKan contract functions."
+> Demo dapp with buttons that call EthKan contract functions.
+
+The point of this dapp is to be as simple as possible. Almost everything is in `App.js`. Even though it was made with `create-react-app` it is actually structured as a simple `jquery` html page.
 
 ## Install
 Follow instructions at ethkan-contracts first. Then come here.
