@@ -12,7 +12,6 @@ You will also need to use an address with test Ether. Copy the private key by cl
 Back in MetaMask, click the user icon and select "create new account." Use the copied private key to create a MetaMask account with test Ether.
 <br>
 If you see your new test user's balance at 95 Ether or more then you are ready to start dapping.
-```
 Clone this repo locally. 
 <br>
 <br>
