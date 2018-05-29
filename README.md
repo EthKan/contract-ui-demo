@@ -38,7 +38,7 @@ npm start
 ```
 Error: the tx doesn't have the correct nonce. account has nonce of: 6 tx has nonce of: 5
 ```
-- If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
+- If you receive this error it means MetaMask is out of sync with your local testnet. Try using a different address from Ganache by creating a new MetaMask account by importing the private key.
 ```
 Error: Couldn't decode address from ABI: 0x0
 ```
