@@ -1,0 +1,53 @@
+body {
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h4 {
+    margin: 4px;
+}
+
+button {
+    display: block;
+    margin: 2px 2px 2px 20px;
+}
+
+label {
+    margin: 2px 2px 2px 20px;
+}
+
+input {
+    margin: 2px 2px 2px 4px;
+}
+
+.item {
+    border-radius: 10px;
+    border: 3px solid #E0EBF5;
+    padding: 10px;
+    width: 500px;
+    margin: 2px;
+    display: inline-block;
+    text-align: left;
+}
+
+.readonly {
+    border: 3px solid #e8ffe6;
+}
+
+.item-note {
+    font-size: small;
+    font: light-gray;
+    margin: 2px 2px 2px 20px;
+}
+
+.result {
+    background: #ffffe3;
+    display: block;
+    overflow: wrap;
+    overflow-wrap: break-word;
+    font-family: monospace;
+    margin: 2px 2px 2px 20px;
+    padding: 5px;
+}
