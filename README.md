@@ -47,3 +47,8 @@ Error: Couldn't decode address from ABI: 0x0
 Error: VM Exception while processing transaction: revert
 ```
 - If you run into this error it means something about your user input violates the contract rules. Calling a method that requires owner access from an address that is not that owner address for example. Or funding a card that is already approved.
+
+## Usage
+Vid of install and usage: https://www.youtube.com/watch?v=B_xZZ0eIq_Y
+<br>
+(Skip any parts that are boring. Usage is at the very end.)

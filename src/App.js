@@ -11,7 +11,7 @@ import EthKan from './EthKan';
 $ (document).ready (function () {
   // configs
   var ethNodeUrl = 'ws://localhost:7545'; // my localhost ganache
-  var ethKanDeployedAddress = '0x2c2b9c9a4a25e24b174f26114e8926a9f2128fe4'; // address of contract deployed to ganache using truffle
+  var ethKanDeployedAddress = '0x345ca3e014aaf5dca488057592ee47305d9b3e10'; // address of contract deployed to ganache using truffle
   var gasLimit = 500000; // this is too high for production
 
   // get and set selected address from MetaMask
