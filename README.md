@@ -26,6 +26,7 @@ var gasLimit = 500000; // this is too high for production
 ```
 If you run into this error it means you probably didn't set this up right: `Error: Couldn't decode address from ABI: 0x0`
 <br>
+Make sure the `EthKan.json` file matches the `./build/contracts/EthKan.json` of the deployed contract you want your dapp to talk to.
 <br>
 From inside repo.
 ```
@@ -34,4 +35,4 @@ npm install
 ```
 npm start
 ```
-
+If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
