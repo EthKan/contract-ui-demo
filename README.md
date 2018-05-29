@@ -2,10 +2,12 @@
 
 "Demo dapp with buttons that call EthKan contract functions."
 
+## Install
 Follow instructions at ethkan-contracts first. Then come here.
 <br>
 <br>
 Your MetaMask Chrome extension must be set to the Ganache network. Open and login to MetaMask and select "Custom RPC" and enter the url Ganache is running on. Default is `http://localhost:7545`.
+<br>
 <br>
 You will also need to use an address with test Ether. Copy the private key by clicking the key icon on the right of the list of default addresses. 
 <br>
@@ -35,4 +37,4 @@ npm install
 ```
 npm start
 ```
-If you receive this error it means MetaMask is out of sync with your local testnet. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
+If you receive this error it means MetaMask is out of sync with your local testnet: `Error: the tx doesn't have the correct nonce. account has nonce of: 6 tx has nonce of: 5`. Try redeploying the contract to a new address and change the hardcoded `ethKanDeployedAddress` config in App.js.
